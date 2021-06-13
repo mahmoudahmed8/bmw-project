@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <title>BMW</title>
+    <link href="stylecont.css" rel="stylesheet">
+</head>
+<body>
+  <div class="body">
+    <header class="header">          
+    <h1><a href="index.html">b m w</a></h1>
+    <ul class="nav">
+    <li><a href="index.html" >home</a></li>
+    <li><a href="models.html">models</a></li>
+    <li><a href="services.html" >details</a></li>
+    <li><a href="gallery.html">gallery</a></li>
+    <li><a href="contact.html" class="lastchild" class="active">contact</a></li>
+    <li></li>
+    </ul>
+    <span class="fa fa-bars">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" >home</a></li>
+                <li><a href="models.html">models</a></li>
+                <li><a href="services.html">details</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="contact.html"  class="active">contact</a></li>
+            </ul>
+        </div>
+    <br><br><br>
+
+    </header>
+    <br><br><br><br><br>
+
+        <main>
+                        <div class="tit">sign up</div>
+
+            <div class="container">
+
+                <form id="myform"  onsubmit="return validation(event)"  autocomplete="on" >
+      
+          
+                  <div class="inputBox">
+                      
+                      <label for="user" class="font">First Name:            </label>
+                      <input name="fname" type="text" placeholder="First name" id="user" class="control" required><br><br>
+                      <label for="user2" class="font">Last Name:  </label>
+                      <input name="lname" type="text" placeholder="last name" id="user2" class="control" required><br><br>
+                      <label for="email" class="font">Email:  </label>
+                      <input name="email" type="email" id="email" class="control" placeholder="email" required><br><br>
+                      <label for="mobile" class="font">Phone Number: </label>
+                      <input  name="number" type="tel" id="mobile" class="control" placeholder="mobile number" pattern="[0-9]{11}" required><br><br>
+                      <label for="user" class="font">Adress: </label>
+                      <input name="adress" type="text" id="adress" class="adress" placeholder="adress" required><br><br>
+                      <label for="pass"class="font">Password: </label>
+                      <input  name="password"type="password" id ="pass" class="control" placeholder="password" required><br><br>
+                      <label for="password" class="font">Confirm Password: </label>
+                      <input name="passward" type="password" placeholder="confirm passward" id="conpass" class="control" ><br><br>
+                      <label for="gender" class="font">Gender: </label>
+                      <select id="gender" name="gender" required>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                      </select><br><br><br>
+                
+                  <textarea placeholder="Leave your message here..." name="address" id="" cols="50" rows="10" required></textarea><br><br>
+                 
+                <br><br>
+
+                 <div class="sub"> <input type="submit" value="send" class="btn" id="submit" ></div>
+              </div>
+              </form>
+                </div>
+                <script src="main.js"></script>
+
+              <div class="navigate"  >
+                <a href="gallery.html" class="btn round disabledh" ><span>&#8249;</span></a>
+                
+            </div>
+        </main>
+        <footer>
+            <div class="cont">
+            
+            <div class="social">
+                <h2>Our Links</h2>
+                <p>you can get in touch with us by this links</p>
+                <div>
+                  <a href="https://twitter.com/bmw?lang=ar" class="fa  fa-twitter" target="_blank"></a>
+                <a href="https://m.facebook.com/BMW/" class="fa  fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/bmw/" class="fa  fa-instagram" target="_blank"></a>
+                <a href="https://www.youtube.com/user/BMW" class="fa  fa-youtube"target="_blank"></a>
+            </div>
+            <div class="footend"> 
+            <p>copyright &copy; 2021 <span>Mahmoud Hegazy</span></p>
+            </div>
+        </div>
+        </footer>
+        </div>
+</body>
+</html>
